@@ -3,8 +3,8 @@ instances: 1
 memory: 1G
 applications:
   - name: cook
-    host: cookie
+    host: robs-cookin
     services:
-      - config-server
+      - config-server-rob
     env:
       SPRING_PROFILES_ACTIVE: dev
